@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(73, 73, 73);
+}
+.header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header ul li {
+    display: inline-block;
+    padding: 7px;
+}
+.header ul li a {
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+    padding: 5px 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header ul li a:hover {
+    color: white;
+}
+.subheader {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(173, 4, 4);
+}
+.subheader ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+.subheader ul li {
+    display: inline-block;
+}
+.subheader ul li a:hover {
+    background-color: rgb(116, 0, 0);
+}
+.subheader ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+}
+.subheader ul li a:hover {
+
+}
+.subheader img {
+    width: 200px;
+    height: auto;
+    background-size: contain;
+}
+.mainpage {
+    width: 100%;
+    height: 85vh;
+    background-image: url("4627731.jpg");
+    background-size: cover;
+
+}
+.ads {
+    width: 300px;
+    height: 50vh;
+    background-color: rgb(233, 233, 233);
+    position: relative;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+    border: 10px solid rgb(173, 4, 4);
+}
+.ads .rewards {
+    font-size: 30px;
+    font-weight: 700;
+}
+.ads img {
+    width: 100px;
+    height: auto;
+    position: relative;
+    margin-top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    
+}
+.ads p {
+    margin-left: 2%;
+    text-align: center;
+    font-size: 21px;
+    color: rgb(73, 73, 73);
+    font-family: 'Courier New', Courier, monospace;
+    cursor: default;
+}
+.ads .eyti {
+    font-size: 60px;
+    font-weight: 800;
+}
